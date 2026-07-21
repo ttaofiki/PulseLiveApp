@@ -1,0 +1,91 @@
+.mgmt-loading {
+  text-align: center;
+  color: var(--color-gray-500);
+  padding: 80px 0;
+}
+
+.mgmt-status-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.mgmt-type {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--color-indigo-600);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.mgmt-title {
+  font-size: 1.8rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin-bottom: 8px;
+}
+
+.mgmt-question {
+  color: var(--color-gray-600);
+  font-size: 1.05rem;
+  max-width: 640px;
+}
+
+.mgmt-grid {
+  margin-top: 28px;
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 20px;
+  align-items: start;
+}
+
+.mgmt-panel {
+  padding: 24px;
+}
+
+.mgmt-panel--share {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.mgmt-panel-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  align-self: flex-start;
+}
+
+.mgmt-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  gap: 12px;
+}
+
+.mgmt-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.mgmt-reset {
+  padding: 8px 14px;
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
+.mgmt-empty {
+  color: var(--color-gray-500);
+  padding: 24px 0;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .mgmt-grid {
+    grid-template-columns: 1fr;
+  }
+}
